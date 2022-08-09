@@ -1,0 +1,19 @@
+@import 'variables.scss';
+
+// @mixin before-tablet {
+//     @media screen and (min-width: $tablet) {
+//       @content;
+//     }
+//   }
+  
+  @mixin before-desktop-sm {
+    @media screen and (max-width: $desktop-sm) {
+      @content;
+    }
+  }
+
+  @mixin before-tablet {
+    @media screen and (max-width: $tablet) {
+      @content;
+    }
+  }
